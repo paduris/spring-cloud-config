@@ -7,21 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="Service-Config-Client-A" />
-        <module name="Service-Config-Client-B" />
+        <module name="Service-Client-Config-A" />
+        <module name="Service-Client-Config-B" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
-      <module name="Service-Config-Client-A" target="1.8" />
-      <module name="Service-Config-Client-B" target="1.8" />
+      <module name="Service-Client-Config-A" target="1.8" />
+      <module name="Service-Client-Config-B" target="1.8" />
       <module name="spring-cloud-config" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Service-Config-Client-A" options="-parameters" />
-      <module name="Service-Config-Client-B" options="-parameters" />
+      <module name="Service-Client-Config-A" options="-parameters" />
+      <module name="Service-Client-Config-B" options="-parameters" />
       <module name="config-server" options="-parameters" />
     </option>
   </component>
