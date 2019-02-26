@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: Service-Config-Client-A
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+
+
+server:
+  port: 8181
+
+logging:
+  level:
+    ROOT: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+limits:
+  maxLimit: 50
+  minLimit: 5
+
+message: bootstrap properties properties from application

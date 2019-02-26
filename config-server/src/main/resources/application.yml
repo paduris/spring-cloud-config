@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Development/Microservices/spring-cloud-config-repo
+
+server:
+  port: 8888
+
+logging:
+  level:
+    ROOT: INFO
+
+
+
